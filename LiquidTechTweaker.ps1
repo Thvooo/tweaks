@@ -318,7 +318,7 @@ do {
         "12" { LT-Latency }
         "13" { LT-DNSChanger }
         "14" { LT-Update }
-        "15" { Write-Host "Exiting THVO Tweaker......" -ForegroundColor Purple }
+        "15" { Write-Host "Exiting THVO Tweaker......" -ForegroundColor cyan }
         "16" { LT-ExtraDebloat }
         default { Write-Host "Invalid selection." -ForegroundColor Red }
     }
