@@ -10,13 +10,13 @@ $LTRepoURL = "https://raw.githubusercontent.com/YOURNAME/YOURREPO/main/LiquidTec
 #      ASCII LOGO (Liquid)
 # ------------------------------
 $LTLogo = @"
- _      _      _       _     _        __     ___       _    
-| |    (_)    | |     | |   | |      / /    |__ \     | |   
-| |     _  ___| | ___ | | __| |_   _/ /_       ) | ___| | __
-| |    | |/ __| |/ _ \| |/ /| | | | '_ \     / / / _ \ |/ /
-| |____| | (__|   < (_) |   < | | |_| (_) |   |_| |  __/   < 
-|______|_|\___|_|\_\___/|_|\_\|_|\__,_|____(_)___|\___|_|\_\
-                 L I Q U I D  T E C H  T W E A K E R
+___________.__                         __                         __            
+\__    ___/|  |_____  ______  ______ _/  |___  _  __ ____ _____  |  | __  ______
+  |    |   |  |  \  \/ /  _ \/  ___/ \   __\ \/ \/ // __ \\__  \ |  |/ / /  ___/
+  |    |   |   Y  \   (  <_> )___ \   |  |  \     /\  ___/ / __ \|    <  \___ \ 
+  |____|   |___|  /\_/ \____/____  >  |__|   \/\_/  \___  >____  /__|_ \/____  >
+                \/               \/                     \/     \/     \/     \/ 
+                          T H V O  T W E A K E S
 "@
 
 function LT-Header {
@@ -318,7 +318,7 @@ do {
         "12" { LT-Latency }
         "13" { LT-DNSChanger }
         "14" { LT-Update }
-        "15" { Write-Host "Exiting LiquidTech Tweaker..." -ForegroundColor Cyan }
+        "15" { Write-Host "Exiting THVO Tweaker......" -ForegroundColor Purple }
         "16" { LT-ExtraDebloat }
         default { Write-Host "Invalid selection." -ForegroundColor Red }
     }
